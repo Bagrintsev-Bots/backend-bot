@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { KatModule } from './kat/kat.module';
+import { ProfileModule } from './profile/profile.module';
 
 @Module({
-  imports: [KatModule],
+  imports: [ProfileModule],
   controllers: [AppController],
   providers: [AppService],
 })
