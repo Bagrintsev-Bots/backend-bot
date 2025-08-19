@@ -1,0 +1,14 @@
+**/*.md
+**/*.svg
+.gitignore
+.prettierignore
+yarn.lock
+yarn-error.log
+package-lock.json
+node_modules
+dist
+build
+coverage
+src/coverage
+env-config.js
+.gitlab-ci.yml
